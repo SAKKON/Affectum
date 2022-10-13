@@ -1,0 +1,352 @@
+/* PAGINA PRINCIPAL */
+
+.background{
+    position: relative;
+    width: auto;
+    height: auto;
+
+    background: #ADC5CD;
+}
+
+
+/* MENU */
+.menu{
+    position: absolute;
+    width: 1280px;
+    height: 129px;
+    left: 0px;
+    top: 0px;
+}
+
+/* Barra de navegacion */
+.bar{
+    position: absolute;
+    width: 1300px;
+    height: 107px;
+    left: 0px;
+    top: 16px;
+    
+    background: #D9D9D9;
+    border-radius: 130px;
+}
+
+/* Boton de ayuda*/
+.ayudabtn{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    right: 1px;
+    top: -10px;
+}
+
+/* Circulo izquierdo*/
+.circleleft{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 1px;
+    top: -10px;
+    
+    background: #CD2D2D;
+    border-radius: 130px;
+}
+
+/* Circulo derecho*/
+.circleh{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    right: 0px;
+    top: -10px;
+    
+    background: #CD2D2D;
+    border-radius: 130px;
+}
+
+/*IMAGEN AYUDA*/
+.help{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    right: 30px;
+    top: -10px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.help-content {
+    display: none;
+    position: absolute; 
+    bottom: -400px;
+    right: -30px;
+    width: 100% 300px;
+    height: 100% 500px;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+
+.help-assist{
+    position: inherit;
+    width: 236px;
+    height: 234px;
+    right: 0px;
+    bottom: 200px;
+    border-color: transparent;
+
+
+}
+
+  .help:hover .help-content {
+    display: block;
+    background-color: #FFFFFF;
+  }
+  .help-content a {
+    display: block;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .help-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+  .text{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+/* IMAGEN AFFECTUM*/
+.logo{
+    position: absolute;
+    width: 319px;
+    height: 287px;
+    right: 480px;
+}
+
+
+/*LOGIN BUTTON*/
+.loginbtn{
+position: absolute;
+width: 173px;
+height: 40px;
+right: 200px;
+top: 15px;
+
+background: #CD2D2D;
+}
+
+/*ICONO LOGIN*/
+.logicon{
+position: absolute;
+height: 30px;
+width: 30px;
+left: 8px;
+top: 5px;
+}
+
+/*LOGIN*/
+.login{
+position: absolute;
+font-size: large;
+color: #FFFFFF;
+height: 30px;
+width: 100px;
+left: 50px;
+top: 10px;    
+}
+
+
+/*REGISTER BUTTON*/
+.registerbtn{
+    position: absolute;
+    width: 173px;
+    height: 40px;
+    right: 200px;
+    top: 60px;
+    
+    background: #CD2D2D;
+}
+    
+/*ICONO REGISTER*/
+.regicon{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 8px;
+    top: 5px;
+}
+    
+/*REGISTER*/
+.register{
+    position: absolute;
+    font-size: large;
+    color: #FFFFFF;
+    height: 30px;
+    width: 100px;
+    left: 50px;
+    top: 10px;    
+}
+
+
+/* INFORMACION OBJETIVO*/
+
+.rect1{
+    position: absolute;
+    background: #D9D9D9;
+    width: 800px;
+    height: 280px;
+    left: 387px;
+    top: 350px;
+}
+
+.object{
+position: absolute;
+left: 300px;
+top: -30px;
+
+font-family: 'Boogaloo';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 76px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #CD2D2D;
+}
+
+.info1{
+position: absolute;
+width: 760px;
+height: auto;
+left: 20px;
+top: 50px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 33px;
+
+color: #000000;
+
+}
+
+.imgobj{
+position: absolute;
+left:-400px;
+top: 0px;
+width: 400px;
+height: 280px;
+
+}
+
+
+/*INFORMACIÓN AUTISMO*/
+
+.rect2{
+    position: absolute;
+    background: #D9D9D9;
+    width: 800px;
+    height: 280px;
+    right: 400px;
+    top: 750px;
+}
+
+.autism{
+position: absolute;
+left: 300px;
+top: -30px;
+
+font-family: 'Boogaloo';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 76px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #CD2D2D;
+}
+
+.info2{
+position: absolute;
+width: 760px;
+height: auto;
+left: 20px;
+top: 50px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 33px;
+
+color: #000000;
+
+}
+
+.imgaut{
+position: absolute;
+right:-400px;
+top: 0px;
+width: 400px;
+height: 280px;
+
+}
+
+
+/*INFORMACION RETOS DE COMUNICACION*/
+
+.rect3{
+    position: absolute;
+    background: #D9D9D9;
+    width: 800px;
+    height: 280px;
+    left: 387px;
+    top: 1150px;
+}
+
+.comunication{
+position: absolute;
+left: 180px;
+top: -40px;
+
+font-family: 'Boogaloo';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 76px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #CD2D2D;
+}
+
+.info3{
+position: absolute;
+width: 760px;
+height: auto;
+left: 20px;
+top: 50px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 33px;
+
+color: #000000;
+
+}
+
+.imgcom{
+position: absolute;
+left:-400px;
+top: 0px;
+width: 400px;
+height: 280px;
+
+}
