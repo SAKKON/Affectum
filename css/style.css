@@ -12,8 +12,8 @@
 /* MENU */
 .menu{
     position: absolute;
-    width: 1280px;
-    height: 129px;
+    width: 1280px;/*1280px*/
+    height: 129px;/*129px*/
     left: 0px;
     top: 0px;
 }
@@ -21,8 +21,8 @@
 /* Barra de navegacion */
 .bar{
     position: absolute;
-    width: 1300px;
-    height: 107px;
+    width: 1300px;/*1300px*/
+    height: 107px;/*107px*/
     left: 0px;
     top: 16px;
     
@@ -348,5 +348,65 @@ left:-400px;
 top: 0px;
 width: 400px;
 height: 280px;
+
+}
+
+.encuestah1{
+
+top: -2%;
+position: absolute;
+right: 10%;
+font-size: 300%;
+
+}
+
+.situation{
+
+position: absolute;
+width: 772px;
+height: 593px;
+left: 342px;
+top: 67px;
+
+}
+
+.situationbox{
+
+box-sizing: border-box;
+
+position: absolute;
+width: 700px;
+height: 380px;
+left: -2%;
+top: 15%;
+    
+background: #F5F6FA;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+
+}
+
+.slider{
+
+box-sizing: border-box;
+
+position: absolute;
+width: 980px;
+height: 119px;
+left: -20%;
+top: 87%;
+
+background: #CED6E0;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+
+}
+
+.text2{
+
+font-family: 'Montserrat', sans-serif;
+color: #000;   
 
 }
