@@ -24,7 +24,7 @@ if(isset($_POST["btnlogin"])){
     $nr = mysqli_num_rows($query);
 
     if($nr == 1){
-        echo "<script> alert('Bienvenido $nombre'); window.location = '/Affectum/Affectum/SistEncu/problemario.php' </script>";
+        echo "<script> alert('Bienvenido $nombre'); window.location = '/xampp/Affectum/SistEncu/problemario.php' </script>";
     }
     else if($nr == 0){
         echo "<script> alert('El usuario no existe.'); window.location = 'login.html' </script>";
